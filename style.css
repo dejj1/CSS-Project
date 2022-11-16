@@ -1,0 +1,29 @@
+main{
+    padding-top: 40px;
+
+}
+.project-title{
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    border: 1px solid black;
+    padding: 18px 10px;
+    width: 400px;
+    border-radius: 10px;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    
+
+}
+.card{
+max-width: 300px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-content: center; 
+}
+.deji_header{
+    text-align: center;
+    color: blue;
+}
+
